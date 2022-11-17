@@ -1,6 +1,25 @@
-$primary-color: white;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header > announcement {
+  font-family: 'PT Serif', serif;
+  color: #d83e22;
+
+}
+
+
+fieldset {
+  border-radius:20px;
+
+
+}
+
+
+.copyright {
+  color: #868989;
+  font-weight: 800px;
 }

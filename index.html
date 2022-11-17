@@ -4,10 +4,60 @@
         <title>Potions</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" href="./src/styles/styles.scss" >
     </head>
     <body>
-        <div id="app"></div>
+        <h1>Merlins Potions <br>Fine potions since 2022</h1>
         
+        <header>
+            <input type="text" name="nome"  placeholder="Seach our stock" id="">
+            <div class="announcement"><em>Free shipping <br> an orders over $50</em></div>
+
+        </header>
+        <nav>
+            <ul>
+                <li>Potions</li>
+                <li>Ingredients</li>
+                <li>Books</li>
+                <li>Supplies</li>
+                <li>Charms</li>
+            </ul>
+            <p>Clearance!</p>
+
+            <a href="">Sign in</a>
+            <p>or</p> 
+            <a href="">Sign up</a>
+        </nav>
+       <main>
+             <section>
+                <h1>Potions</h1>
+                <img src="./src/assets/aging-potion.png" alt="Aging Potion">
+                <img src="./src/assets/bulgeye-potion.png" alt="">
+                <img src="./src/assets/dragon-tonic.png" alt="">
+                <img src="./src/assets/love-potion.png" alt="">
+                <img src="./src/assets/polyjuice-potion.png" alt="">
+                <img src="./src/assets/sleeping-draught.png" alt="">
+            </section>
+       </main>
+        <footer>
+            <a href="">Company</a>
+            <a href="">Contact Us</a>
+            <a href="">Shipping</a>
+            <a href="">Returns</a>
+            <a href="">Careers</a>
+
+            <fieldset>
+                <label for="text">Sign up for our Newsletter <br><br> Sign up for our newsletter & get exclusive discounts <br></label>
+                <input type="email" placeholder="Enter your email">
+                <button>Submit</button>
+            </fieldset>
+            
+        </footer>
+
+        <div class="copyright">© 2022 Merlin's Potions. All Rights Reserved</div>
+        <div id="app"></div>
         <script src="./src/scripts/index.js" type="module"></script>
     </body>
 </html>
