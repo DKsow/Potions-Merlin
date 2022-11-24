@@ -1,63 +1,149 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Potions</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" href="./src/styles/styles.scss" >
-    </head>
-    <body>
-        <h1>Merlins Potions <br>Fine potions since 2022</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400&display=swap">
+    <link rel="stylesheet" href="./src/styles/styles.scss">
+</head>
+<body>
+    
+    <header class="menu-header">
+        <div class="menu-title">
+
+            <h1>Merlins Potions <br> <em>Fine potions since 2022</em></h1>
+
+
+            <input type="text" name="nome" placeholder="Seach our stock" id="">
+
+            <div class="announcement"><em>Free shipping <br>an order over $50</em></div>
+    
+            <div class="caldeirao">
+                <img src="./src/assets/caldeirao.png" alt="">
+            </div>
+        </div>
+       
+        <nav class="menu-nav">  
+            <div class="menu-nav__bloco">
+                <ul class="menu-nav__list">
+                    <li class="menu-nav__item"><em>Potions</em></li>
+                    <li class="menu-nav__item"><em>Ingredients</em></li>
+                    <li class="menu-nav__item"><em>Books</em></li>
+                    <li class="menu-nav__item"><em>Supplies</em></li>
+                    <li class="menu-nav__item"><em>Charms</em></li>
+                    <li class="menu-nav__item menu-nav__item-clearence"><em>Clearence!</em></li>
+                </ul>
+            
+
+            <div class="login">
+                <a href="">Sign In</a>
+                <p class="text">or</p>
+                <a href="">Sign Up</a>
+             </div>
+        </div>
+ 
+    </nav>
+
+    </header>
+
+    
+
+    <main>
         
-        <header>
-            <input type="text" name="nome"  placeholder="Seach our stock" id="">
-            <div class="announcement"><em>Free shipping <br> an orders over $50</em></div>
+        <h2>Potions</h2>
 
-        </header>
-        <nav>
-            <ul>
-                <li>Potions</li>
-                <li>Ingredients</li>
-                <li>Books</li>
-                <li>Supplies</li>
-                <li>Charms</li>
-            </ul>
-            <p>Clearance!</p>
+        <section class="potions-images">
+            
+            <div class="divimages">
+                <img src="./src/assets/aging-potion.png" alt="">
+                <p><strong>Aging Potion</strong> - $29.99</p>
+            </div>
 
-            <a href="">Sign in</a>
-            <p>or</p> 
-            <a href="">Sign up</a>
-        </nav>
-       <main>
-             <section>
-                <h2>Potions</h2>
-                <img src="./src/assets/aging-potion.png" alt="Aging Potion">
+            <div class="divimages">
                 <img src="./src/assets/bulgeye-potion.png" alt="">
+                <p><strong>Bulgeye Potion</strong> - $19.99</p>
+            </div>
+            
+            <div class="divimages">
                 <img src="./src/assets/dragon-tonic.png" alt="">
+                <p><strong>Dragon Tonic</strong> - $64.99</p>
+            </div>
+
+            <div class="divimages">
                 <img src="./src/assets/love-potion.png" alt="">
+                <p><strong>Love Potion</strong> - $29.99</p>
+            </div>
+            
+            <div class="divimages">
                 <img src="./src/assets/polyjuice-potion.png" alt="">
+                <p><strong>Polyjuice Potion</strong> - $99.99</p>
+            </div>
+
+            <div class="divimages">
                 <img src="./src/assets/sleeping-draught.png" alt="">
-            </section>
-       </main>
-        <footer>
+                <p><strong>Sleeping Draught</strong> - $14.99</p>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contact-us">
             <a href="">Company</a>
-            <a href="">Contact Us</a>
+            <a href="">Contact us</a>
             <a href="">Shipping</a>
             <a href="">Returns</a>
             <a href="">Careers</a>
+        </div>
 
-            <fieldset>
-                <label for="text">Sign up for our Newsletter <br><br> Sign up for our newsletter & get exclusive discounts <br></label>
-                <input type="email" placeholder="Enter your email">
-                <button>Submit</button>
-            </fieldset>
-            
-        </footer>
+        <div class="social-medias">
+            <a href="htpps://www.facebook.com/">
+                <img src="./src/assets/facebook.png" alt="">
+            </a>
+        </div>
 
-        <div class="copyright">© 2022 Merlin's Potions. All Rights Reserved</div>
-        <div id="app"></div>
-        <script src="./src/scripts/index.js" type="module"></script>
-    </body>
+        <div class="social-medias">
+            <a href="htpps://www.twitter.com/">
+                <img src="./src/assets/twitter.png" alt="">
+            </a>
+        </div>
+
+        <div class="social-medias">
+            <a href="htpps://www.pinterest.com/">
+                <img src="./src/assets/pinterest.png" alt="">
+            </a>
+        </div>
+
+        <div class="social-medias">
+            <a href="htpps://www.twitter.com/">
+                <img src="./src/assets/twitter2.png" alt="">
+            </a>
+        </div>
+        
+        <div class="social-medias">
+            <a href="htpps://www.google.com/">
+                <img src="./src/assets/google.png" alt="">
+            </a>           
+        </div>
+
+
+        <fieldset>
+            <label for="text">Sign up our Newsletter <br><br>Sign up for our newsletter & get exclusive discoutns! <br></label> <br>
+            <input type="email" placeholder="Enter your email">
+            <button>SUBMIT</button>
+
+        </fieldset>
+        <br>
+        
+    </footer>
+    
+<div class="copyright">© 2022 Merlin's Potions. All Rights Reserved</div>
+</body>
 </html>
